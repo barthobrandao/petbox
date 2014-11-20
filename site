@@ -1,0 +1,77 @@
+<html>
+	<body>
+		<header>
+			
+			<link rel="stylesheet" href="css/reset.css">
+			<link rel="stylesheet" href="css/estilos.css">
+			
+			<h1><img src="petbox2.png" alt="PetBox"></h1>
+		
+		</header>
+		
+		<section id="main"> 
+		<div class="container destaque"> 
+				
+			<section class="busca">
+			<h2>Buscar</h2>
+
+				<form>
+					<input type="search">
+					<input type="image" src="img/busca.png"> <!-- selecionar imagem -->
+				</form>
+		</section><!-- fim .busca -->
+		
+		<section class="menu-departamentos">
+				
+				
+
+					<nav class="menu-opcoes">
+				<ul>
+					<li><a href="indexPetBox.hmtl">Home</a></li>
+					<li><a href="#">Adocao</a></li>
+					<li><a href="sobre.html">Sobre</a></li>
+					<li><a href="#">Fale Conosco</a></li>
+				</ul>
+			</nav>
+		</section><!-- fim .menu-departamentos -->
+		 
+		 	 <section class="painel novidades">
+		 
+			 <h2>Animais</h2>
+				<ol>
+
+				<!-- primeiro produto -->
+					<li>
+						<a href="produto.html">
+							<figure>
+								<img src="img/produtos/miniatura1.png">
+								<figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+							</figure>
+						</a>
+					</li>
+					
+					
+				
+				<!-- coloque mais animais aqui! -->
+				
+				</ol>
+				
+		</section><!-- imagem do centro da tela pode ser um slide tbm  -->
+		</div><!-- fim .container .destaque -->
+		</section>
+		
+	  <footer><!-- isso é o rodapé -->
+				<div class="container">
+					<img src="axios.jpg" alt="Logo Mirror Fashion">
+
+					<ul class="social">
+						<li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
+						<li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
+						<li><a href="http://plus.google.com/mirrorfashion">Google+</a></li>
+					</ul>
+
+				</div>
+		</footer>
+
+	</body>
+</html>
